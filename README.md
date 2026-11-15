@@ -1,5 +1,9 @@
 # Space Time Exploration of Metro-Police Crime Data (April 2021 - March 2024)
 
+## MLflow and DVC example
+
+See [the reproducible forecasting example](mlops/README.md) for experiment tracking and dataset versioning on synthetic monthly counts.
+
 ## Introduction
 
 ### Project Overview

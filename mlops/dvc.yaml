@@ -1,0 +1,7 @@
+stages:
+  prepare:
+    cmd: python prepare.py
+    deps:
+      - prepare.py
+    outs:
+      - data/monthly_counts.csv
