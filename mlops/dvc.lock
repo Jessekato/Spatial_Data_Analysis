@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python prepare.py
+    deps:
+    - path: prepare.py
+      hash: md5
+      md5: 29c5f95524ed36ce009a9dabd0ea01db
+      size: 884
+    outs:
+    - path: data/monthly_counts.csv
+      hash: md5
+      md5: fc8f1e728f028d834cda674c27f37285
+      size: 4633
